@@ -1,9 +1,8 @@
 # 🎬 ASCII Video Converter - ASCII PIXEL VIDEO
 ![python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![python]([[[https://img.shields.io/badge/Python-3.8+-blue.svg](https://img.shields.io/badge/OpenCV-4.8.1-green.svg](https://img.shields.io/badge/Pygame-2.5.2-red.svg))](https://img.shields.io/badge/Numba-0.58.1-orange.svg))
-https://img.shields.io/badge/OpenCV-4.8.1-green.svg
-https://img.shields.io/badge/Pygame-2.5.2-red.svg
-https://img.shields.io/badge/Numba-0.58.1-orange.svg
+![python](https://img.shields.io/badge/OpenCV-4.8.1-green.svg)
+![python](https://img.shields.io/badge/Pygame-2.5.2-red.svg)
+![python](https://img.shields.io/badge/Numba-0.58.1-orange.svg)
 Проект для преобразования видео в ASCII-АРТ в реальном времени
 
 # 🎥 Основные возможности
