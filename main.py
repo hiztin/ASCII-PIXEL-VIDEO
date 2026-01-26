@@ -16,7 +16,7 @@ def accelerate_conversion(image, width, height, ascii_coeff, step):
 
 
 class ArtConverter:
-    def __init__(self, path='video/test.mp4', font_size=12): #замена видео
+    def __init__(self, path='video/test.mp4', font_size=12): #заменять видео если надо тут
         pg.init()
         self.path = path
         self.capture = cv2.VideoCapture(path)
@@ -55,8 +55,7 @@ class ArtConverter:
         for char_index, pos in array_of_values:
             self.surface.blit(self.RENDERED_ASCII_CHARS[char_index], pos)
 
-    def get_image(self):
-        # self.cv2_image = cv2.imread(self.path)
+    def get_image(self):)
         ret, self.cv2_image = self.capture.read()
         if not ret:
             exit()
@@ -71,7 +70,6 @@ class ArtConverter:
     def draw(self):
         self.surface.fill('black')
         self.draw_converted_image()
-        # self.draw_cv2_image()
 
     def save_image(self):
         pygame_image = pg.surfarray.array3d(self.surface)
@@ -92,7 +90,7 @@ class ArtConverter:
             self.draw()
             pg.display.set_caption(str(self.clock.get_fps()))
             pg.display.flip()
-            self.clock.tick(60) #ФПС видео больше - быстрее
+            self.clock.tick(60) #ФПС видео / больше - быстрее
 
 
 if __name__ == '__main__':
